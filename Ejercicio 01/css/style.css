@@ -1,0 +1,17 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  background-image: url('../img/background.jpg');
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-bg-aquamarine{
+  background-color: aquamarine;
+}

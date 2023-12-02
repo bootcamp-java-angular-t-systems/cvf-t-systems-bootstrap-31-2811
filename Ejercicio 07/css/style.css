@@ -1,0 +1,46 @@
+.hero {
+    display: flex;
+    height: 40vh;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(150deg,rgba(0,255,119,.8) 0%,rgba(86,66,255,.8) 100%);
+}
+
+.hero-background {
+    overflow: hidden;
+    background-image: url(../img/code-background.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -5;
+}
+
+.hero-profile {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: filter 3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.hero-profile img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-icons {
+    height: 90%!important;
+}
+
+.purple-text {
+    color: rgba(86,66,255,.8);
+}

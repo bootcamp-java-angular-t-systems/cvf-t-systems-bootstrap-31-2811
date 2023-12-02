@@ -1,0 +1,22 @@
+svg{
+   color:white;
+}
+
+.navbar-size {
+   height: 40px;
+}
+
+.item-hover:hover {
+   background-color: white;
+   transition: .3s;
+}
+
+.item-hover:hover .nav-link, 
+.item-hover:hover svg {
+   color: black !important;
+   transition: .3s;
+}
+
+.dropdown-item:hover {
+   background-color: #333 !important;
+ }
